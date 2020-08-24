@@ -4,16 +4,16 @@ import React from 'react';
 
 
 
-class Footer extends React.Component {
+const Footer = () => {
 
-render() {
-    return (
-        <nav class="navbar navbar-default  navbar-fixed-bottom" role="navigation">
-        <div class="container text-center">
-          <p class="navbar-text col-md-12 col-sm-12 col-xs-12">&copy; Copyright 2020 Kenneth Wardlow</p>
-        </div>
-      </nav>
-    )        
-  }
+  return (
+    <div>
+      <nav className="navbar navbar-default  navbar-fixed-bottom" role="navigation">
+      <div className="container text-center">
+        <p className="navbar-text col-md-12 col-sm-12 col-xs-12">&copy; Copyright 2020 Kenneth Wardlow</p>
+      </div>
+    </nav>
+    </div>
+  )        
 }
 export default Footer;

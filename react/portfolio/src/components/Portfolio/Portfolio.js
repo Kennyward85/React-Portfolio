@@ -1,14 +1,19 @@
 import React from 'react';
-import Nav from '/Navbar/Nav';
-import Footer from '/Footer/Footer';
+import Header from '../NavBar/Nav';
+import Footer from '../Footer/Footer';
 
 
 
-const Portfolio =  ({Projects}) => {
-    const project = {name, description, github, deployed, img}
+const Portfolio =  () => {
+    // const project = {name, description, github, deployed, img}
 
     return (
-<div class="container">
+      <div>
+    <Header/>
+    <div>Portfolio Page</div>
+    <Footer/>
+    </div>
+/* <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
       <div class="col mb-3">
         <div class="card" id= "effect">
@@ -23,10 +28,10 @@ const Portfolio =  ({Projects}) => {
         </div>
       </div>
       </div>
-      </div>
-      </div>
+      </div> */  
 
 
     )
 }
 
+export default Portfolio;
