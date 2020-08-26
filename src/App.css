@@ -35,12 +35,13 @@ body{
   color: slategray;
 }
 .card-img-top{
-  height: 200px;
-  width: 45%;
+  height: 240px;
+  width: 100%;
 }
 
 .col-lg-4{
    padding: 25px;
+  
 }
 
 .card-body {
