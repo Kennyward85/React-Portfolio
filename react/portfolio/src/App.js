@@ -1,10 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 import Main from "./components/Landing/Main";
-import ContactPage from './components/Contact/ContactPage';
+import ContactPage from './components/Contact/Contactpage';
 import Portfolio from "./components/Portfolio/Portfolio";
-// import Header from './components/NavBar/Nav';
-// import Footer from './components/Footer/Footer';
+
 function App() {
   return (
     <Router>

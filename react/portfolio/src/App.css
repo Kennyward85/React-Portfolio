@@ -1,5 +1,5 @@
 body{
-  background: rgb(199, 203, 207)!important;
+  background: #e9ecef!important;
 }
 
 .about {
@@ -10,8 +10,62 @@ body{
 
 .card-img-top:hover {
   color: slategray;
-  opacity: .5!important;
+  opacity: .3!important;
 }
-a{
+.links {
+
   color: #eee;
+}
+.links:link {
+  color: #bcb8b1;
+}
+
+
+.links:visited {
+  color: #bcb8b1;
+}
+
+
+.links:hover {
+  color: slategray;
+}
+
+
+.links:active {
+  color: slategray;
+}
+.card-img-top{
+  height: 200px;
+  width: 45%;
+}
+
+.col-lg-4{
+   padding: 25px;
+}
+
+.card-body {
+  background-color: #dfdedd;
+}
+
+.thisH1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.email{
+  color: black;
+  text-decoration: underline; 
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.resume{
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.btn{
+  background-color: #343a40!important;
+  border-color: #343a40!important;
 }

@@ -42,23 +42,23 @@ const ContactPage = () => {
                   </div>
                   <div className="panel-body" style={{ textAlign:"center"}}>
                     <a href="https://github.com/kennyward85" target="_blank">
-                      <img src="../images/github.png" className="social" alt="GitHub"
+                      <img src={require("../images/github.png")} className="social" alt="GitHub"
                         style={{width: "50px", height:"50px"}}/>
                     </a>
                     <br/><br/><br/>
                     <a href="https://www.linkedin.com/in/kenneth-wardlow-950ba11a8/" target="_blank">
-                      <img src="../images/linkedin.png" className="social" alt="LinkedIn"
+                      <img src={require("../images/linkedin.png")} className="social" alt="LinkedIn"
                         style={{width: "50px", height:"50px"}}/>
                     </a>
                     <br/><br/><br/>
-                    <a href="file:///C:/Users/Kenneth/Desktop/Resume..pdf" download = "Kenneth Wardlow Resume" target="_blank">
-                      <img src="../images/Resume.png" className="social" alt="Resume"
-                        style={{width: "50px", height:"50px"}}/><p>Resume</p>
+                    <a href={require("../images/Resume.docx.pdf")}  target="_blank">
+                      <img src={require("../images/resume.png")} className="social" alt="Resume"
+                        style={{width: "50px", height:"50px"}}/><p className="resume">Resume</p>
                         </a>
                         <br/><br/>
                         <h6>E-mail:</h6>
                         <a href = "mailto: Kenneth@wardlowservices.com" target = "_blank">
-                        <h6> kenneth@wardlowservices.com</h6>
+                        <h6 className="email"> kenneth@wardlowservices.com</h6>
                         </a>
                         <h6>Phone:</h6>
                         <h6>979-292-4562</h6>
