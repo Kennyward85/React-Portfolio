@@ -35,7 +35,7 @@ body{
   color: slategray;
 }
 .card-img-top{
-  height: 240px;
+  height: 240px!important;
   
 }
 
@@ -72,7 +72,7 @@ body{
 }
 
 .atag{
-  height:240px;
+  height:240px!important;
   width: 450px!important;
 }
 .card{
