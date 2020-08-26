@@ -36,7 +36,7 @@ body{
 }
 .card-img-top{
   height: 240px;
-  width: 100%;
+  
 }
 
 .col-lg-4{
@@ -69,4 +69,12 @@ body{
 .btn{
   background-color: #343a40!important;
   border-color: #343a40!important;
+}
+
+.atag{
+  height:240px;
+  width: 450px!important;
+}
+.card{
+  width: 450px!important;
 }

@@ -8,11 +8,11 @@ import CardColumns from 'react-bootstrap/card';
   return (
     <CardColumns>
     <Card>
-      <a href={deployed} target="_blank">
+      <a className= "atag" href={deployed} target="_blank">
       <Card.Img className="Imgs" variant="top" src={img} />
       </a><Card.Body>
         <Card.Title>{name}</Card.Title>
-        <a href={github} target="_blank">
+        <a className= "atag" href={github} target="_blank">
         <Card.Text>
          Github
         </Card.Text>
