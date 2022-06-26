@@ -10,7 +10,7 @@ const Footer = () => {
     <div>
       <nav className="navbar navbar-default  navbar-fixed-bottom" role="navigation">
       <div className="container text-center">
-        <p className="navbar-text col-md-12 col-sm-12 col-xs-12">&copy; Copyright 2020 Kenneth Wardlow</p>
+        <p className="navbar-text col-md-12 col-sm-12 col-xs-12">&copy; Copyright 2020 Roberson-Air</p>
       </div>
     </nav>
     </div>

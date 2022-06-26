@@ -41,7 +41,7 @@ const ContactPage = () => {
                     <h3 className="panel-title">Contact Me</h3>
                   </div>
                   <div className="panel-body" style={{ textAlign:"center"}}>
-                    <a href="https://github.com/kennyward85" target="_blank">
+                    <a href="https://Roberson-air.com" target="_blank">
                       <img src={require("../images/github.png")} className="social" alt="GitHub"
                         style={{width: "50px", height:"50px"}}/>
                     </a>
@@ -58,10 +58,10 @@ const ContactPage = () => {
                         <br/><br/>
                         <h6>E-mail:</h6>
                         <a href = "mailto: Kenneth@wardlowservices.com" target = "_blank">
-                        <h6 className="email"> kenneth@wardlowservices.com</h6>
+                        <h6 className="email"> Roberson954@gmail.com</h6>
                         </a>
                         <h6>Phone:</h6>
-                        <h6>979-292-4562</h6>
+                        <h6>xxx-xxx-xxxx</h6>
                     
                     <br/><br/><br/>
                   </div>
